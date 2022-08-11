@@ -1,0 +1,8 @@
+Jesus:Logronio:41
+Andres:Madrid:19
+Angel Mari:Valencia:
+Laura Saenz::23
+Maria Calvo::38
+Roberto:Madrid:20
+Carles:Barcelona:37
+:Aranjuez:23
