@@ -1,5 +1,3 @@
-import java.util.Optional;
-
 public class Persona {
     private String nombre;
     private String poblacion;
@@ -28,4 +26,6 @@ public class Persona {
     public void setEdad(Integer edad) {
         this.edad = edad;
     }
+
+
 }

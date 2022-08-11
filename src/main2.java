@@ -25,11 +25,11 @@ public class main2 {
 
 
 
-        listaPersonas.stream().filter(personas -> personas.getEdad() < 25 )
-                .filter(personas -> personas.getEdad() != 0)
-                .map(personas -> "Nombre: " + Optional.ofNullable(personas.getNombre()).orElse("Unknown")+
-                        " |Poblacion: " + Optional.ofNullable(personas.getPoblacion()).orElse("Unknown")+
-                        " |Edad: " + Optional.ofNullable(personas.getEdad()).orElse(0))
+        listaPersonas.stream().filter(persona -> persona.getEdad() < 25 )
+                .filter(persona -> persona.getEdad() != 0)
+                .map(persona -> "Nombre: " + Optional.ofNullable(persona.getNombre()).orElse("Unknown")+
+                        " |Poblacion: " + Optional.ofNullable(persona.getPoblacion()).orElse("Unknown")+
+                        " |Edad: " + Optional.ofNullable(persona.getEdad()).orElse(0))
                 .forEach(System.out::println);
     }
 
